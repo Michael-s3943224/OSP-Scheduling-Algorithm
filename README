@@ -1,0 +1,9 @@
+# How to run
+
+steps:
+    goto: directory with make file
+    compile-cmd: make all
+    run-fifo-cmd: ./fifo <datafile>
+    run-sjf-cmd: ./sjf <datafile>
+    run-rr-cmd: ./rr <quantum> <datafile>
+    clean-cmd: make clean 
